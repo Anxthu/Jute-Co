@@ -1,7 +1,7 @@
 # Jute & Co.
 > *Sustainable Living, Crafted by Hand.*
 
-![Jute & Co. Banner](https://images.unsplash.com/photo-1596468138865-680c10f391a9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Jute & Co. Banner](./images/jute&co.jpg)
 
 ---
 
@@ -61,3 +61,17 @@ npm run dev
 
 ---
 *© 2025 Jute & Co. All Rights Reserved.*
+
+## 📸 UI Showcase
+
+![Home Page](./images/Screenshot%202026-01-20%20204222.png)
+*Immersive Home Experience*
+
+![Collection](./images/Screenshot%202026-01-20%20204240.png)
+*Curated Collections*
+
+![Product Detail](./images/Screenshot%202026-01-20%20204311.png)
+*Detail View*
+
+![Cart](./images/Screenshot%202026-01-20%20204331.png)
+*Seamless Checkout*
