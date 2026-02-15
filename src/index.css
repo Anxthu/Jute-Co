@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Colors */
+    --color-primary: #000000;
+    --color-secondary: #555555;
+    --color-background: #ffffff;
+    --color-light-gray: #f5f5f5;
+    --color-border: #e0e0e0;
+    --color-accent: #92754c;
+    /* Gold/Bronze accent */
+
+    /* Typography */
+    --font-sans: 'Jost', system-ui, sans-serif;
+    --font-serif: 'Jost', system-ui, sans-serif;
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 48px;
+    --spacing-xxl: 80px;
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  body {
+    @apply font-sans bg-white text-black antialiased leading-relaxed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-normal tracking-tight;
+  }
+}
+
+@utility perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
